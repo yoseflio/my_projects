@@ -1,0 +1,76 @@
+11:35:51 zhwiktionary   categorize 'Category:調用Template:auto cat的分類' by TongcyBot [bot] — [[:Category:派生自馬來-波利尼西亞語族的亞本連埃塔語詞]]已添加至分类
+11:35:51 zhwiktionary   categorize 'Category:派生自南島語系的亞本連埃塔語詞' by TongcyBot [bot] — [[:Category:派生自馬來-波利尼西亞語族的亞本連埃塔語詞]]已添加至分类
+11:35:51 zhwiktionary   categorize 'Category:派生自馬來-波利尼西亞語族的詞' by TongcyBot [bot] — [[:Category:派生自馬來-波利尼西亞語族的亞本連埃塔語詞]]已添加至分类
+11:35:53 commonswiki    edit       'Category:Hotels and pubs in Morpeth, New South Wales' by Rangasyd (+12 bytes) — removed [[Category:Hotels and pubs in New South Wales]]; added [[Category:Hotels
+11:35:53 wikidatawiki   edit       'Q97424503' by Porrima (+93 bytes) — /* wbeditentity-update-languages-short:0||hu */ QuickStatements 3.0 [[:toollabs:
+11:35:53 jawiki         edit       'Cocohana' by 柏尾菓子 (+0 bytes) — 部数更新
+11:35:53 commonswiki    categorize 'Category:Our World in Data maps of Oceania' by Mr.Ibrahembot [bot] — [[:File:Changes residential duration covid, Oceania, Mar 8, 2022.svg]] added to 
+11:35:53 kowiktionary   edit       '초과' by Altobot [bot] (+0 bytes) — 봇: 2016년 틀 풀기 때 빠진 품사 문단 복구 및 분류를 문서 아래로 옮김 ([[사용자:Altostratus/2016년 리워크 정리]] 참조
+11:35:53 wikidatawiki   edit       'Q60636288' by Printstream (+1047 bytes) — /* wbeditentity-update:0| */ QuickStatements 3.0 [[:toollabs:qs-dev/batch/65771|
+11:35:52 enwiki         edit       'Marek Kowalkiewicz' by Lstrasstet (-320 bytes)
+11:35:53 commonswiki    categorize 'Category:Hotels and pubs by location in New South Wales' by Rangasyd — [[:Category:Hotels and pubs in Morpeth, New South Wales]] added to category
+11:35:50 arzwiki        edit       'مرزان در' by InternetArchiveBot [bot] (+82 bytes) — Rescuing 1 sources and tagging 0 as dead. #IABot (v2.0.9.7)
+11:35:53 commonswiki    edit       'File:Hipopótamo en cautiverio 08.jpg' by SchlurcherBot [bot] (+2027 bytes) — /* wbeditentity-statements-multiple-properties-add:0||4 */ automatically adding 
+11:35:53 commonswiki    categorize 'Category:Hotels and pubs in New South Wales' by Rangasyd — [[:Category:Hotels and pubs in Morpeth, New South Wales]] removed from category
+11:35:53 zhwikisource   new        'Page:NLCGJ-1012339-1142121 歷代通鑒纂要九十二卷 明正德二年內府刻本 重慶圖書館藏 第27冊.pdf/79' by CollationBot [bot] (+570 bytes) — OCR 初稿（中华古籍智慧化服务平台机器识别），无标点，未校对
+11:35:53 commonswiki    edit       'File:Changes residential duration covid, Oceania, Mar 9, 2020.svg' by Mr.Ibrahembot [bot] (+47 bytes) — Adding [[:Category:Our World in Data maps of Oceania]]
+11:35:54 wikidatawiki   edit       'Q48458674' by BorkedBot [bot] (+306 bytes) — /* wbsetqualifier-add:1| */ [[Property:P407]]: [[Q1860]], update metadata from f
+11:35:54 wikidatawiki   edit       'Q97424507' by Porrima (+93 bytes) — /* wbeditentity-update-languages-short:0||hu */ QuickStatements 3.0 [[:toollabs:
+11:35:52 zhwiki         categorize 'Category:含有网址格式错误的引用的页面' by Hesshdbx — [[:中国人民解放军信息支援部队战场环境研究所]]已从分类中移除
+11:35:53 commonswiki    log        'File:ISS073-E-1245690 - View of Earth.jpg' by OptimusPrimeBot [bot] — #Spacemedia - Upload of https://eol.jsc.nasa.gov/DatabaseImages/ESC/large/ISS073
+11:35:53 enwiki         edit       'Hanyang University station' by ThatNorthLondoner (-55 bytes) — /* Station layout */
+11:35:53 zhwikisource   categorize 'Category:未校对' by CollationBot [bot] — [[:Page:NLCGJ-1012339-1142121 歷代通鑒纂要九十二卷 明正德二年內府刻本 重慶圖書館藏 第27冊.pdf/79]]已添加至分类，[[
+11:35:53 commonswiki    edit       'File:Number 873 - DPLA - 0d2456eed1a1996038b01044d4c18e83 (page 45).tiff' by TSC-AWB (+32 bytes) — /* {{int:filedesc}} */ Queue for Twinkle deletion
+11:35:52 enwiki         edit       'Universal Woman (pageant)' by Rc ramz (-15 bytes)
+11:35:54 wikidatawiki   edit       'Q29057402' by Printstream (+2094 bytes) — /* wbeditentity-update:0| */ QuickStatements 3.0 [[:toollabs:qs-dev/batch/65771|
+11:35:54 mgwiktionary   new        'relamiéramos' by Bot-Jagwar [bot] (+186 bytes) — Dikanteny: es
+11:35:54 lawiki         edit       'Cătălina' by Grufo (+12 bytes) — +‘|ratio=nomen’
+11:35:53 commonswiki    categorize 'Category:Our World in Data maps of Oceania' by Mr.Ibrahembot [bot] — [[:File:Changes residential duration covid, Oceania, Mar 9, 2020.svg]] added to 
+11:35:54 wikidatawiki   edit       'Q48458674' by BorkedBot [bot] (+228 bytes) — /* wbsetqualifier-add:1| */ [[Property:P9675]]: 115497, update metadata from fan
+11:35:53 eswiki         edit       'Género literario' by ~2026-59536-06 (+3 bytes)
+11:35:53 commonswiki    categorize 'Category:ISS photographs taken on 2025-11-11' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:53 arzwiki        edit       'مرزانك' by InternetArchiveBot [bot] (+82 bytes) — Rescuing 1 sources and tagging 0 as dead. #IABot (v2.0.9.7)
+11:35:53 commonswiki    categorize 'Category:Taken on missing SDC inception' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:53 commonswiki    categorize 'Category:Images from the Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:54 wikidatawiki   edit       'Q97424517' by Porrima (+93 bytes) — /* wbeditentity-update-languages-short:0||hu */ QuickStatements 3.0 [[:toollabs:
+11:35:53 commonswiki    categorize 'Category:Pages with local object coordinates and missing SDC coordinates' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:53 commonswiki    categorize 'Category:Files with coordinates missing SDC location of creation' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:54 commonswiki    edit       'File:Changes residential duration covid, Oceania, Mar 9, 2021.svg' by Mr.Ibrahembot [bot] (+47 bytes) — Adding [[:Category:Our World in Data maps of Oceania]]
+11:35:53 commonswiki    categorize 'Category:PD NASA' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:54 mgwiktionary   categorize 'Sokajy:espaniola' by Bot-Jagwar [bot] — Nampiana tamin'ny sokajy [[:relamiéramos]]
+11:35:53 commonswiki    categorize 'Category:PD-USGov missing SDC copyright status' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:54 mgwiktionary   categorize "Sokajy:Endriky ny matoanteny amin'ny teny espaniola" by Bot-Jagwar [bot] — Nampiana tamin'ny sokajy [[:relamiéramos]]
+11:35:53 commonswiki    categorize 'Category:ISS Expedition 73 Crew Earth Observations (dump)' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:54 mgwiktionary   categorize "Sokajy:Pejy avy any amin'ny wikibolana anglisy" by Bot-Jagwar [bot] — Nampiana tamin'ny sokajy [[:relamiéramos]]
+11:35:53 commonswiki    categorize 'Category:NASA GAPE files uploaded by OptimusPrimeBot' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:53 commonswiki    categorize 'Category:Taken with Nikon Z 9' by OptimusPrimeBot [bot] — [[:File:ISS073-E-1245690 - View of Earth.jpg]] added to category
+11:35:54 frwiktionary   edit       'battre monnaie' by Justinetto (+257 bytes) — /* Locution verbale */
+11:35:54 wikidatawiki   edit       'Q50822604' by Printstream (+1047 bytes) — /* wbeditentity-update:0| */ QuickStatements 3.0 [[:toollabs:qs-dev/batch/65771|
+11:35:54 commonswiki    categorize 'Category:Our World in Data maps of Oceania' by Mr.Ibrahembot [bot] — [[:File:Changes residential duration covid, Oceania, Mar 9, 2021.svg]] added to 
+11:35:51 frwiki         edit       'Art néolithique' by Kailingkaz (-1 bytes) — Modèle siècle.
+11:35:55 cywiki         new        'Categori:Arlunwyr o Weriniaeth Dominica' by Craigysgafn (+240 bytes) — Dechrau tudalen newydd gyda "[[Categori:Arluniaeth Gweriniaeth Dominica|#Arlunwy
+11:35:54 commonswiki    edit       'File:Hipopótamo en cautiverio 10.jpg' by SchlurcherBot [bot] (+2456 bytes) — /* wbeditentity-statements-multiple-properties-add:0||5 */ automatically adding 
+11:35:55 wikidatawiki   edit       'Q97424544' by Porrima (+93 bytes) — /* wbeditentity-update-languages-short:0||hu */ QuickStatements 3.0 [[:toollabs:
+11:35:53 commonswiki    categorize 'Category:TSC deletion queue' by TSC-AWB — [[:File:Number 873 - DPLA - 0d2456eed1a1996038b01044d4c18e83 (page 45).tiff]] ad
+11:35:55 zhwikisource   new        'Page:NLCGJ-1012339-1142121 歷代通鑒纂要九十二卷 明正德二年內府刻本 重慶圖書館藏 第27冊.pdf/80' by CollationBot [bot] (+570 bytes) — OCR 初稿（中华古籍智慧化服务平台机器识别），无标点，未校对
+11:35:55 wikidatawiki   edit       'Q99075030' by Hannolans (+2308 bytes) — /* wbsetclaim-create:2||1 */ [[Property:P569]]: 9 April 1941
+11:35:55 commonswiki    edit       'File:Changes residential duration covid, Oceania, Mar 9, 2022.svg' by Mr.Ibrahembot [bot] (+47 bytes) — Adding [[:Category:Our World in Data maps of Oceania]]
+11:35:54 kawiki         edit       'მიკროკომპიუტერი' by Gobrona (+67 bytes)
+11:35:54 commonswiki    edit       'File:NAJDA-287-0072 宗聖志2.pdf' by CollationBot [bot] (-27 bytes) — [[Commons:Bots/Requests/CollationBot/2]] - Update NAJDA URL format
+11:35:55 wikidatawiki   log        'Q142099304' by TongcyBot
+11:35:55 commonswiki    log        "File:Tile panel with Qur'anic Doris Duke Foundation for Islamic Art accession 48.423.JPG" by ~2026-59502-21
+11:35:54 svwiki         edit       'Markus Alfredsson' by ~2026-59712-29 (-20 bytes) — /* */
+11:35:55 wikidatawiki   new        'Q142099304' by TongcyBot [bot] (+10197 bytes) — /* wbeditentity-create-item:0| */ Create item for Wiktionary category: +zhwiktio
+11:35:55 cywiki         categorize 'Categori:Arluniaeth Gweriniaeth Dominica' by Craigysgafn — Ychwanegwyd [[:Categori:Arlunwyr o Weriniaeth Dominica]] at y categori
+11:35:55 cywiki         categorize 'Categori:Arlunwyr o Ogledd America yn ôl gwlad' by Craigysgafn — Ychwanegwyd [[:Categori:Arlunwyr o Weriniaeth Dominica]] at y categori
+11:35:54 ocwiki         edit       'Geografia' by CommonsDelinker (-88 bytes) — Lo fichièr Baylonianmaps.JPG es estat escafat coma o es estat sus Commons per Ru
+11:35:55 cywiki         categorize 'Categori:Arlunwyr yn ôl gwlad' by Craigysgafn — Ychwanegwyd [[:Categori:Arlunwyr o Weriniaeth Dominica]] at y categori
+11:35:55 cywiki         categorize 'Categori:Celfyddydwyr gweledol o Weriniaeth Dominica' by Craigysgafn — Ychwanegwyd [[:Categori:Arlunwyr o Weriniaeth Dominica]] at y categori
+11:35:55 wikidatawiki   edit       'Q92045' by Printstream (+1047 bytes) — /* wbeditentity-update:0| */ QuickStatements 3.0 [[:toollabs:qs-dev/batch/65771|
+11:35:55 zhwikisource   categorize 'Category:未校对' by CollationBot [bot] — [[:Page:NLCGJ-1012339-1142121 歷代通鑒纂要九十二卷 明正德二年內府刻本 重慶圖書館藏 第27冊.pdf/80]]已添加至分类，[[
+11:35:55 nlwiki         edit       'Babylonische wereldkaart' by CommonsDelinker (-94 bytes) — [[c:File:Baylonianmaps.JPG|Baylonianmaps.JPG]] is op Commons verwijderd. [[c:Use
+11:35:55 commonswiki    categorize 'Category:Our World in Data maps of Oceania' by Mr.Ibrahembot [bot] — [[:File:Changes residential duration covid, Oceania, Mar 9, 2022.svg]] added to 
+11:35:55 wikidatawiki   edit       'Q97424567' by Porrima (+93 bytes) — /* wbeditentity-update-languages-short:0||hu */ QuickStatements 3.0 [[:toollabs:
+11:35:54 kawiki         categorize 'კატეგორია:სტატიები BNF იდენტიფიკატორით' by Gobrona — [[:მიკროკომპიუტერი]] დაემატა კატეგორიაში
+11:35:54 commonswiki    log        'File:2021 OH11 General Election.svg' by Putitonamap98 — shapes
+11:35:54 kawiki         categorize 'კატეგორია:სტატიები GND იდენტიფიკატორით' by Gobrona — [[:მიკროკომპიუტერი]] დაემატა კატეგორიაში
