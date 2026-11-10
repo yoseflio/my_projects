@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="my_branch: wiki_strem.py change location">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki_stream_output.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,23 +25,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1307273949369363" />
-      <entry key="MS500" value="3.1167876129712484" />
-      <entry key="S2" value="7.894964861912767" />
-      <entry key="S5" value="16.693136144854495" />
-      <entry key="S10" value="25.787916155429368" />
-      <entry key="S30" value="37.27306443476394" />
-      <entry key="S60" value="41.31503878800326" />
-      <entry key="M2" value="43.606109908042654" />
-      <entry key="M5" value="45.857103229515964" />
-      <entry key="M10" value="48.038496982120385" />
-      <entry key="M15" value="49.68556311073304" />
-      <entry key="M30" value="53.89064111611865" />
-      <entry key="H1" value="59.28340208152117" />
-      <entry key="H2" value="63.979476374198484" />
-      <entry key="H4" value="67.13287443880033" />
-      <entry key="D1" value="70.29900973916641" />
-      <entry key="W1" value="70.89837538871625" />
+      <entry key="MS100" value="1.0046588601007502" />
+      <entry key="MS500" value="2.2132475282297026" />
+      <entry key="S2" value="8.97777476970936" />
+      <entry key="S5" value="16.915792950332268" />
+      <entry key="S10" value="22.624833739190485" />
+      <entry key="S30" value="28.319487738878834" />
+      <entry key="S60" value="30.42488171850457" />
+      <entry key="M2" value="35.30260993143246" />
+      <entry key="M5" value="55.59008532267359" />
+      <entry key="M10" value="78.32079244855896" />
+      <entry key="M15" value="91.06974144544807" />
+      <entry key="M30" value="109.7048048171975" />
+      <entry key="H1" value="124.23310958639063" />
+      <entry key="H2" value="134.40785497498717" />
+      <entry key="H4" value="140.6733411318982" />
+      <entry key="D1" value="146.6941092628054" />
+      <entry key="W1" value="147.81120438476148" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -61,23 +63,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.114899020290459" />
-      <entry key="MS500" value="3.1062569778074853" />
-      <entry key="S2" value="7.883053488038431" />
-      <entry key="S5" value="16.67207183390769" />
-      <entry key="S10" value="25.767642094363065" />
-      <entry key="S30" value="37.262235526802215" />
-      <entry key="S60" value="41.30892245362783" />
-      <entry key="M2" value="43.6028563666157" />
-      <entry key="M5" value="45.855740804648406" />
-      <entry key="M10" value="48.03779517196232" />
-      <entry key="M15" value="49.68508644038496" />
-      <entry key="M30" value="53.89039282095399" />
-      <entry key="H1" value="59.28327192811527" />
-      <entry key="H2" value="63.97940873460942" />
-      <entry key="H4" value="67.13283976508409" />
-      <entry key="D1" value="70.29900381789257" />
-      <entry key="W1" value="70.89837453897849" />
+      <entry key="MS100" value="0.9704635525948239" />
+      <entry key="MS500" value="2.1983094577205584" />
+      <entry key="S2" value="8.960020266725984" />
+      <entry key="S5" value="16.90102077855328" />
+      <entry key="S10" value="22.614621981147906" />
+      <entry key="S30" value="28.31514578580636" />
+      <entry key="S60" value="30.42251285162868" />
+      <entry key="M2" value="35.301090122793966" />
+      <entry key="M5" value="55.58888849492047" />
+      <entry key="M10" value="78.31986804848441" />
+      <entry key="M15" value="91.0690065497898" />
+      <entry key="M30" value="109.70435612464763" />
+      <entry key="H1" value="124.23285716345634" />
+      <entry key="H2" value="134.40771987289742" />
+      <entry key="H4" value="140.67327100173353" />
+      <entry key="D1" value="146.69409717702624" />
+      <entry key="W1" value="147.8112026479012" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -94,7 +96,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "lior__1",
+    "git-widget-placeholder": "lior__2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
