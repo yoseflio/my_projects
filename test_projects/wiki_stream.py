@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Listen to Wikimedia EventStreams and print events as they arrive.
+"""Listen to Wikimedia EventStreams for a few seconds, print events and save them to a text file.
 
 Docs: https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams
 
 Examples:
-    python3 wiki_stream.py                      # all recent changes, everywhere
+    python3 wiki_stream.py                      # 3 seconds of all recent changes -> wiki_stream_output.txt
+    python3 wiki_stream.py --duration 10 --output my_events.txt
     python3 wiki_stream.py --wiki enwiki        # only English Wikipedia
     python3 wiki_stream.py --no-bots --limit 20
     python3 wiki_stream.py --stream page-create --raw
@@ -12,6 +13,7 @@ Examples:
 
 import argparse
 import json
+import os
 import sys
 import time
 import urllib.error
@@ -21,6 +23,8 @@ BASE_URL = "https://stream.wikimedia.org/v2/stream/"
 # Wikimedia asks clients to send a descriptive User-Agent; requests without one may be blocked.
 # Replace the contact part with your own email or project URL.
 USER_AGENT = "wiki-stream-demo/0.1 (contact: you@example.com) python-urllib"
+# Project root (one level above test_projects/).
+DEFAULT_OUTPUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "wiki_stream_output.txt")
 
 
 def iter_sse_events(url, last_event_id=None):
@@ -84,11 +88,21 @@ def main():
     parser.add_argument("--no-bots", action="store_true", help="hide bot edits")
     parser.add_argument("--limit", type=int, default=0, help="stop after N matching events (0 = forever)")
     parser.add_argument("--raw", action="store_true", help="print the full JSON of each event")
+    parser.add_argument("--duration", type=float, default=3, help="stop after N seconds (0 = forever, default: 3)")
+    parser.add_argument("--output", default=DEFAULT_OUTPUT, help=f"text file to write events to (default: {DEFAULT_OUTPUT})")
     args = parser.parse_args()
 
     url = BASE_URL + args.stream
     print(f"Connecting to {url} (Ctrl+C to stop)...", file=sys.stderr)
 
+    with open(args.output, "w", encoding="utf-8") as out:
+        count = listen(url, args, out)
+    print(f"Wrote {count} events to {args.output}", file=sys.stderr)
+
+
+def listen(url, args, out):
+    """Stream matching events to stdout and `out`; return how many were written."""
+    deadline = time.monotonic() + args.duration if args.duration else None
     last_id, count, backoff = None, 0, 1
     while True:
         try:
@@ -101,21 +115,24 @@ def main():
                     continue
                 if ev.get("meta", {}).get("domain") == "canary":
                     continue  # Wikimedia's synthetic health-check events
+                if deadline and time.monotonic() >= deadline:
+                    return count
                 if not matches(ev, args):
                     continue
 
                 if args.raw or args.stream != "recentchange":
-                    print(json.dumps(ev, ensure_ascii=False, indent=2))
+                    line = json.dumps(ev, ensure_ascii=False, indent=2)
                 else:
-                    print(format_recentchange(ev))
-                sys.stdout.flush()
+                    line = format_recentchange(ev)
+                print(line, flush=True)
+                out.write(line + "\n")
 
                 count += 1
                 if args.limit and count >= args.limit:
-                    return
+                    return count
         except KeyboardInterrupt:
             print(f"\nStopped after {count} events.", file=sys.stderr)
-            return
+            return count
         except (urllib.error.URLError, ConnectionError, TimeoutError, OSError) as e:
             # The server closes connections periodically; resume from the last event we saw.
             print(f"Connection dropped ({e}); reconnecting in {backoff}s...", file=sys.stderr)
