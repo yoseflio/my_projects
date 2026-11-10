@@ -6,6 +6,6 @@ from airflow.providers.standard.operators.bash import BashOperator
 def wiki_stream_dag():
     BashOperator(
         task_id="run_wiki_stream",
-    )   bash_command="python /opt/airflow/dags/wiki_stream.py"
+    )   bash_command="python /opt/airflow/dags/wiki_stream.py",
 
 wiki_stream_dag()
