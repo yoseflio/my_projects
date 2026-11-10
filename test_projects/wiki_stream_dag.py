@@ -7,7 +7,8 @@ from airflow.providers.standard.operators.bash import BashOperator
 def wiki_stream_dag():
     BashOperator(
         task_id="run_wiki_stream",
-        bash_command="python wiki_stream.py",
+        # Write into the mounted repo folder so the file shows up on the host.
+        bash_command="python wiki_stream.py --output /opt/airflow/my_projects/wiki_stream_output.txt",
         cwd="/opt/airflow/dags",
     )
 
