@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: add output flag to wiki_stream_dag.py&#10;&#10;test_projects/wiki_stream_dag.py: pass --output argument so the script  &#10;writes results into the mounted repo folder." />
+    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,61 +24,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7798271996740254" />
-      <entry key="MS500" value="2.2884115371803806" />
-      <entry key="S2" value="3.2519648259858065" />
-      <entry key="S5" value="3.6579976833118217" />
-      <entry key="S10" value="3.8208898163533607" />
-      <entry key="S30" value="3.9383943414657816" />
-      <entry key="S60" value="3.975842512416186" />
-      <entry key="M2" value="4.4529670271044335" />
-      <entry key="M5" value="10.077541034669334" />
-      <entry key="M10" value="21.123717253550225" />
-      <entry key="M15" value="33.01115882025458" />
-      <entry key="M30" value="71.61619730380764" />
-      <entry key="H1" value="129.62172476311537" />
-      <entry key="H2" value="185.64398860286488" />
-      <entry key="H4" value="225.878056837418" />
-      <entry key="D1" value="268.3264240158024" />
-      <entry key="W1" value="276.59142439984015" />
+      <entry key="MS100" value="1.6617068951473302" />
+      <entry key="MS500" value="4.2772678899115535" />
+      <entry key="S2" value="7.014695083782299" />
+      <entry key="S5" value="12.560328554304247" />
+      <entry key="S10" value="21.826613029219" />
+      <entry key="S30" value="46.83560328492456" />
+      <entry key="S60" value="63.89979055671236" />
+      <entry key="M2" value="76.71788005282573" />
+      <entry key="M5" value="86.8953983727574" />
+      <entry key="M10" value="94.57589094889252" />
+      <entry key="M15" value="103.1011026009857" />
+      <entry key="M30" value="135.35585655534118" />
+      <entry key="H1" value="193.4010372211871" />
+      <entry key="H2" value="256.77883584546186" />
+      <entry key="H4" value="305.5604811493491" />
+      <entry key="D1" value="359.42086962292666" />
+      <entry key="W1" value="370.1617212640723" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.5778682912646856E-146" />
-      <entry key="S10" value="1.2651522730722582E-73" />
-      <entry key="S30" value="5.97548699900468E-25" />
-      <entry key="S60" value="1.0187059878488755E-12" />
-      <entry key="M2" value="1.398937600006523E-6" />
-      <entry key="M5" value="0.006893294512961862" />
-      <entry key="M10" value="0.12223207483568692" />
-      <entry key="M15" value="0.3312779689907128" />
-      <entry key="M30" value="0.9490280771914059" />
-      <entry key="H1" value="1.661549190597728" />
-      <entry key="H2" value="2.223210775947581" />
-      <entry key="H4" value="2.57972043418548" />
-      <entry key="D1" value="2.9250179360282282" />
-      <entry key="W1" value="2.989160143007918" />
+      <entry key="S5" value="1.90838528962876E-227" />
+      <entry key="S10" value="4.3998761902202396E-114" />
+      <entry key="S30" value="1.950469623781513E-38" />
+      <entry key="S60" value="1.8404829626249993E-19" />
+      <entry key="M2" value="5.946204132630419E-10" />
+      <entry key="M5" value="3.0888969684567905E-4" />
+      <entry key="M10" value="0.025874590071979973" />
+      <entry key="M15" value="0.11766611587638338" />
+      <entry key="M30" value="0.5655988173980799" />
+      <entry key="H1" value="1.282708341311392" />
+      <entry key="H2" value="1.953385666605784" />
+      <entry key="H4" value="2.4181115012842116" />
+      <entry key="D1" value="2.8936487555640973" />
+      <entry key="W1" value="2.9845593721763803" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7379189106424333" />
-      <entry key="MS500" value="2.277113905320654" />
-      <entry key="S2" value="3.2479619619746374" />
-      <entry key="S5" value="3.656210337867881" />
-      <entry key="S10" value="3.8199594273170168" />
-      <entry key="S30" value="3.9380754464485057" />
-      <entry key="S60" value="3.9756794604145753" />
-      <entry key="M2" value="4.452809591620566" />
-      <entry key="M5" value="10.083995129408876" />
-      <entry key="M10" value="21.24524229762886" />
-      <entry key="M15" value="33.34156982019711" />
-      <entry key="M30" value="72.56424351894901" />
-      <entry key="H1" value="131.28245239796905" />
-      <entry key="H2" value="187.86665056652933" />
-      <entry key="H4" value="228.45745726210984" />
-      <entry key="D1" value="271.2513810349935" />
-      <entry key="W1" value="279.5805756358399" />
+      <entry key="MS100" value="1.6122968849985329" />
+      <entry key="MS500" value="4.233886870760932" />
+      <entry key="S2" value="6.9825386473343665" />
+      <entry key="S5" value="12.50610638023497" />
+      <entry key="S10" value="21.77146454926006" />
+      <entry key="S30" value="46.80111377140426" />
+      <entry key="S60" value="63.8784925163274" />
+      <entry key="M2" value="76.7058713345168" />
+      <entry key="M5" value="86.89049554925526" />
+      <entry key="M10" value="94.59894888522929" />
+      <entry key="M15" value="103.21666651473627" />
+      <entry key="M30" value="135.91996480635794" />
+      <entry key="H1" value="194.6826565340519" />
+      <entry key="H2" value="258.7315113860332" />
+      <entry key="H4" value="307.9781785957129" />
+      <entry key="D1" value="362.31443908114727" />
+      <entry key="W1" value="373.14626902338466" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -136,6 +138,9 @@
     <MESSAGE value="main: change" />
     <MESSAGE value="main: add wiki_stream_dag.py" />
     <MESSAGE value="main: add output flag to wiki_stream_dag.py&#10;&#10;test_projects/wiki_stream_dag.py: pass --output argument so the script  &#10;writes results into the mounted repo folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="main: add output flag to wiki_stream_dag.py&#10;&#10;test_projects/wiki_stream_dag.py: pass --output argument so the script  &#10;writes results into the mounted repo folder." />
+    <MESSAGE value="main: fix syntax error in wiki_stream_dag.py&#10;&#10;Add missing comma after bash_command argument in BashOperator call." />
+    <MESSAGE value="main: fix bash_command placement and add cwd in wiki_stream_dag.py&#10;&#10;Move bash_command argument before the closing parenthesis and set cwd to  &#10;/opt/airflow/dags so the script path is relative to the dags directory." />
+    <MESSAGE value="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory." />
   </component>
 </project>

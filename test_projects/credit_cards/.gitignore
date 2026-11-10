@@ -1,0 +1,5 @@
+# Your financial data and keys never go to git.
+data/
+secrets/
+scraper/node_modules/
+__pycache__/

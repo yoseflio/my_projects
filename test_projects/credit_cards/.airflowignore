@@ -1,0 +1,5 @@
+# Folders the DAG processor should not scan for DAGs (the code is still importable).
+data/
+secrets/
+scraper/
+pipeline/

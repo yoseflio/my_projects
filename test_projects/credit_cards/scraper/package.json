@@ -1,0 +1,13 @@
+{
+  "name": "credit-card-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scrapes Cal / Max / Isracard transactions with israeli-bank-scrapers and writes them to a JSON file.",
+  "main": "scrape.js",
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "dependencies": {
+    "israeli-bank-scrapers": "6.13.0"
+  }
+}
