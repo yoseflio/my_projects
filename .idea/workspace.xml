@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="my_branch: wiki_strem.py change location">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: add wiki_stream_dag.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki_stream_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_projects/wiki_stream_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_projects/wiki_stream_dag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,61 +24,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0046588601007502" />
-      <entry key="MS500" value="2.2132475282297026" />
-      <entry key="S2" value="8.97777476970936" />
-      <entry key="S5" value="16.915792950332268" />
-      <entry key="S10" value="22.624833739190485" />
-      <entry key="S30" value="28.319487738878834" />
-      <entry key="S60" value="30.42488171850457" />
-      <entry key="M2" value="35.30260993143246" />
-      <entry key="M5" value="55.59008532267359" />
-      <entry key="M10" value="78.32079244855896" />
-      <entry key="M15" value="91.06974144544807" />
-      <entry key="M30" value="109.7048048171975" />
-      <entry key="H1" value="124.23310958639063" />
-      <entry key="H2" value="134.40785497498717" />
-      <entry key="H4" value="140.6733411318982" />
-      <entry key="D1" value="146.6941092628054" />
-      <entry key="W1" value="147.81120438476148" />
+      <entry key="MS100" value="1.0003622718578726" />
+      <entry key="MS500" value="1.501489126300034" />
+      <entry key="S2" value="4.7782847622555815" />
+      <entry key="S5" value="9.105858479114353" />
+      <entry key="S10" value="13.947129133521718" />
+      <entry key="S30" value="22.743110030094055" />
+      <entry key="S60" value="26.735908991949252" />
+      <entry key="M2" value="29.185911718454726" />
+      <entry key="M5" value="31.76436057778213" />
+      <entry key="M10" value="39.13454545845303" />
+      <entry key="M15" value="50.33285757255678" />
+      <entry key="M30" value="89.06049180207594" />
+      <entry key="H1" value="144.1718192950774" />
+      <entry key="H2" value="194.59360563025513" />
+      <entry key="H4" value="229.6508541120695" />
+      <entry key="D1" value="265.8476703793844" />
+      <entry key="W1" value="272.8149896138549" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="1.4454516843157034E-257" />
+      <entry key="S5" value="1.836639787898162E-103" />
+      <entry key="S10" value="4.3163774993402045E-52" />
+      <entry key="S30" value="8.995642324004795E-18" />
+      <entry key="S60" value="3.952558400793266E-9" />
+      <entry key="M2" value="8.71390982597884E-5" />
+      <entry key="M5" value="0.03599090119024775" />
+      <entry key="M10" value="0.279298193982956" />
+      <entry key="M15" value="0.5747088046926921" />
+      <entry key="M30" value="1.2499904909040942" />
+      <entry key="H1" value="1.9068960851800885" />
+      <entry key="H2" value="2.3817027097695105" />
+      <entry key="H4" value="2.6700912265123247" />
+      <entry key="D1" value="2.9418517012490106" />
+      <entry key="W1" value="2.991611661578074" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9704635525948239" />
-      <entry key="MS500" value="2.1983094577205584" />
-      <entry key="S2" value="8.960020266725984" />
-      <entry key="S5" value="16.90102077855328" />
-      <entry key="S10" value="22.614621981147906" />
-      <entry key="S30" value="28.31514578580636" />
-      <entry key="S60" value="30.42251285162868" />
-      <entry key="M2" value="35.301090122793966" />
-      <entry key="M5" value="55.58888849492047" />
-      <entry key="M10" value="78.31986804848441" />
-      <entry key="M15" value="91.0690065497898" />
-      <entry key="M30" value="109.70435612464763" />
-      <entry key="H1" value="124.23285716345634" />
-      <entry key="H2" value="134.40771987289742" />
-      <entry key="H4" value="140.67327100173353" />
-      <entry key="D1" value="146.69409717702624" />
-      <entry key="W1" value="147.8112026479012" />
+      <entry key="MS100" value="0.008006535073726295" />
+      <entry key="MS500" value="0.8764401876720576" />
+      <entry key="S2" value="4.5563992426836375" />
+      <entry key="S5" value="9.007722622444675" />
+      <entry key="S10" value="13.895212403539325" />
+      <entry key="S30" value="22.724493918363976" />
+      <entry key="S60" value="26.726326888956176" />
+      <entry key="M2" value="29.181124314390587" />
+      <entry key="M5" value="31.79822699833846" />
+      <entry key="M10" value="39.41226502881225" />
+      <entry key="M15" value="50.90608103540059" />
+      <entry key="M30" value="90.30919615510203" />
+      <entry key="H1" value="146.07777560557065" />
+      <entry key="H2" value="196.97472184688513" />
+      <entry key="H4" value="232.32061481623998" />
+      <entry key="D1" value="268.78946092617514" />
+      <entry key="W1" value="275.80659237717816" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -96,7 +95,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "lior__2",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -135,6 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my_branch: add wiki_strem.py" />
     <MESSAGE value="my_branch: wiki_strem.py change location" />
-    <option name="LAST_COMMIT_MESSAGE" value="my_branch: wiki_strem.py change location" />
+    <MESSAGE value="lior_2: add .gitignore" />
+    <MESSAGE value="main: add wiki_stream_dag.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: add wiki_stream_dag.py" />
   </component>
 </project>
