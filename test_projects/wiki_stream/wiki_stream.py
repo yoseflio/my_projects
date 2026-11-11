@@ -24,7 +24,7 @@ BASE_URL = "https://stream.wikimedia.org/v2/stream/"
 # Replace the contact part with your own email or project URL.
 USER_AGENT = "wiki-stream-demo/0.1 (contact: you@example.com) python-urllib"
 # Project root (one level above test_projects/).
-DEFAULT_OUTPUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "wiki_stream_output.txt")
+DEFAULT_OUTPUT = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "wiki_stream_output.txt")
 
 
 def iter_sse_events(url, last_event_id=None):
