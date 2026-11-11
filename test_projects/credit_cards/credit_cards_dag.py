@@ -95,7 +95,19 @@ def credit_cards_daily():
         run_dir = _run_dir(run_id)
         files = sorted(run_dir.glob("*.json")) if run_dir.exists() else []
         if not files:
-            raise RuntimeError("No company was scraped successfully in this run - nothing to publish")
+            configured = []
+            for conn_id in COMPANIES.values():
+                try:
+                    Connection.get(conn_id)
+                    configured.append(conn_id)
+                except AirflowNotFoundException:
+                    pass
+            if not configured:
+                raise AirflowSkipException(
+                    f"No card company connections set up yet ({', '.join(COMPANIES.values())}). "
+                    "Add them under Admin -> Connections - see credit_cards/README.md step 3."
+                )
+            raise RuntimeError(f"Every configured company failed to scrape ({', '.join(configured)}) - see their logs")
 
         updated = {}
         for f in files:

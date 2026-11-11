@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory.">
+    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: add credit_cards project&#10;&#10;Airflow DAG that scrapes Cal, Max and Isracard transactions daily and  &#10;publishes them to a Google Sheet with a monthly summary and status tab.&#10;&#10;- credit_cards_dag.py: DAG with three scrape tasks and a publish task&#10;  (uses TriggerRule.ALL_DONE so a failed company doesn't block the others)&#10;- scraper/scrape.js: Node script using israeli-bank-scrapers with&#10;  Chromium profile persistence to reduce OTP prompts&#10;- pipeline/: transform.py normalizes per-company JSON, store.py keeps&#10;  SQLite history, sheets.py writes the Google Sheet tabs&#10;- Dockerfile: Airflow 3.4.0 image with Node.js, Chromium and gspread&#10;- .gitignore / .airflowignore: exclude data, secrets and node_modules">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_projects/credit_cards/credit_cards_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_projects/credit_cards/credit_cards_dag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,12 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yoseflio&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/yoseflio/my_projects.git&quot;,
@@ -92,6 +100,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -110,6 +119,19 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_projects" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="my_projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="my_projects" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -141,6 +163,7 @@
     <MESSAGE value="main: fix syntax error in wiki_stream_dag.py&#10;&#10;Add missing comma after bash_command argument in BashOperator call." />
     <MESSAGE value="main: fix bash_command placement and add cwd in wiki_stream_dag.py&#10;&#10;Move bash_command argument before the closing parenthesis and set cwd to  &#10;/opt/airflow/dags so the script path is relative to the dags directory." />
     <MESSAGE value="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory." />
+    <MESSAGE value="main: add credit_cards project&#10;&#10;Airflow DAG that scrapes Cal, Max and Isracard transactions daily and  &#10;publishes them to a Google Sheet with a monthly summary and status tab.&#10;&#10;- credit_cards_dag.py: DAG with three scrape tasks and a publish task&#10;  (uses TriggerRule.ALL_DONE so a failed company doesn't block the others)&#10;- scraper/scrape.js: Node script using israeli-bank-scrapers with&#10;  Chromium profile persistence to reduce OTP prompts&#10;- pipeline/: transform.py normalizes per-company JSON, store.py keeps&#10;  SQLite history, sheets.py writes the Google Sheet tabs&#10;- Dockerfile: Airflow 3.4.0 image with Node.js, Chromium and gspread&#10;- .gitignore / .airflowignore: exclude data, secrets and node_modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: add credit_cards project&#10;&#10;Airflow DAG that scrapes Cal, Max and Isracard transactions daily and  &#10;publishes them to a Google Sheet with a monthly summary and status tab.&#10;&#10;- credit_cards_dag.py: DAG with three scrape tasks and a publish task&#10;  (uses TriggerRule.ALL_DONE so a failed company doesn't block the others)&#10;- scraper/scrape.js: Node script using israeli-bank-scrapers with&#10;  Chromium profile persistence to reduce OTP prompts&#10;- pipeline/: transform.py normalizes per-company JSON, store.py keeps&#10;  SQLite history, sheets.py writes the Google Sheet tabs&#10;- Dockerfile: Airflow 3.4.0 image with Node.js, Chromium and gspread&#10;- .gitignore / .airflowignore: exclude data, secrets and node_modules" />
   </component>
 </project>
