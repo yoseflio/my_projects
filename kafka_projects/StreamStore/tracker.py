@@ -1,5 +1,6 @@
 from confluent_kafka import Consumer
 import json
+import os
 
 consumer_config = {
     "bootstrap.servers": "127.0.0.1:9092",
@@ -9,9 +10,21 @@ consumer_config = {
 
 consumer = Consumer(consumer_config)
 
-consumer.subscribe(["orders"])
+# PID tells apart several trackers running side by side.
+name = f"tracker-{os.getpid()}"
 
-print("Consumer is running")
+
+def on_assign(consumer, partitions):
+    print(f"[{name}] assigned partitions: {[p.partition for p in partitions]}")
+
+
+def on_revoke(consumer, partitions):
+    print(f"[{name}] revoked partitions: {[p.partition for p in partitions]}")
+
+
+consumer.subscribe(["orders"], on_assign=on_assign, on_revoke=on_revoke)
+
+print(f"[{name}] Consumer is running")
 
 try:
     while True:
@@ -25,7 +38,7 @@ try:
         value = msg.value().decode("utf-8")
         try:
             order = json.loads(value)
-            print(f"package received: {order['quantity']} x {order['item']} from {order['user']}")
+            print(f"[{name}] partition {msg.partition()}: {order['quantity']} x {order['item']} from {order['user']}")
         except (json.JSONDecodeError, KeyError) as e:
             print(f"Skipping bad message at offset {msg.offset()}: {e}")
 except KeyboardInterrupt:
