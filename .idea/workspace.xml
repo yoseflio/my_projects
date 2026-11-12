@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: skip publish when no card connections configured&#10;&#10;In credit_cards_dag.py, distinguish between &quot;no connections set up&quot; and  &#10;&quot;all configured companies failed&quot; so the DAG skips gracefully with a  &#10;helpful message instead of hard-failing when connections are missing.">
-      <change afterPath="$PROJECT_DIR$/kafka_projects/StreamStore/docker-compose.yaml" afterDir="false" />
+    <list default="true" id="563c2f9a-87ac-4933-9a7b-0e1efa6f7403" name="Changes" comment="main: fix producer.py typos and import errors&#10;&#10;Fix class name `Producder` to `Producer`, correct `delviery` to  &#10;`Delivery`, and use single quotes inside f-string to avoid syntax error.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,61 +31,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0237288544367928" />
-      <entry key="MS500" value="2.450616609825251" />
-      <entry key="S2" value="5.8602429170455075" />
-      <entry key="S5" value="7.515374217463408" />
-      <entry key="S10" value="8.215888412267944" />
-      <entry key="S30" value="9.616466755179301" />
-      <entry key="S60" value="14.313844315237942" />
-      <entry key="M2" value="25.75522927736175" />
-      <entry key="M5" value="48.44778396930388" />
-      <entry key="M10" value="66.36420539504377" />
-      <entry key="M15" value="75.56926914344388" />
-      <entry key="M30" value="87.64301794075138" />
-      <entry key="H1" value="95.17000232248157" />
-      <entry key="H2" value="99.44518553125587" />
-      <entry key="H4" value="105.54217144950374" />
-      <entry key="D1" value="280.3641301435039" />
-      <entry key="W1" value="444.57160180332124" />
+      <entry key="MS100" value="1.3321816480825701" />
+      <entry key="MS500" value="2.2091261673047757" />
+      <entry key="S2" value="7.746139777413167" />
+      <entry key="S5" value="15.440727007614223" />
+      <entry key="S10" value="22.13032079862579" />
+      <entry key="S30" value="31.135183948087853" />
+      <entry key="S60" value="39.95044802425755" />
+      <entry key="M2" value="57.9122264617849" />
+      <entry key="M5" value="105.53645056952536" />
+      <entry key="M10" value="161.71443935424418" />
+      <entry key="M15" value="197.96679466079996" />
+      <entry key="M30" value="253.54760798897107" />
+      <entry key="H1" value="292.96190219452694" />
+      <entry key="H2" value="316.8195436411162" />
+      <entry key="H4" value="333.58743268902344" />
+      <entry key="D1" value="516.5485451908097" />
+      <entry key="W1" value="683.78425419195" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="8.318478320724068E-79" />
-      <entry key="S2" value="3.0740451130768064E-20" />
-      <entry key="S5" value="1.8671620982276046E-8" />
-      <entry key="S10" value="1.8052255914138366E-4" />
-      <entry key="S30" value="0.08817444750546816" />
-      <entry key="S60" value="0.41900116851106267" />
-      <entry key="M2" value="0.9157245819625516" />
-      <entry key="M5" value="1.5506022304712497" />
-      <entry key="M10" value="2.12987776481871" />
-      <entry key="M15" value="2.508007848805035" />
-      <entry key="M30" value="3.086743024567837" />
-      <entry key="H1" value="3.490194454402336" />
-      <entry key="H2" value="3.730339428028378" />
-      <entry key="H4" value="3.890988211186573" />
-      <entry key="D1" value="5.368355567399452" />
-      <entry key="W1" value="6.68493065236285" />
+      <entry key="MS100" value="1.7974040422061796E-29" />
+      <entry key="MS500" value="1.7820879876769642E-6" />
+      <entry key="S2" value="0.03653694956529512" />
+      <entry key="S5" value="0.2661294364299094" />
+      <entry key="S10" value="0.515877346304244" />
+      <entry key="S30" value="0.8020202753541685" />
+      <entry key="S60" value="0.8994130355815723" />
+      <entry key="M2" value="1.063780945870919" />
+      <entry key="M5" value="2.019575278086763" />
+      <entry key="M10" value="3.431948565209062" />
+      <entry key="M15" value="4.4121225541585805" />
+      <entry key="M30" value="6.033906852357" />
+      <entry key="H1" value="7.276959230177796" />
+      <entry key="H2" value="8.065813240211629" />
+      <entry key="H4" value="8.540773388591091" />
+      <entry key="D1" value="10.293686821612297" />
+      <entry key="W1" value="11.672298079036556" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7401178030793082" />
-      <entry key="MS500" value="2.3788108810987074" />
-      <entry key="S2" value="5.83718932907881" />
-      <entry key="S5" value="7.505170154266527" />
-      <entry key="S10" value="8.21074844563474" />
-      <entry key="S30" value="9.701132462738899" />
-      <entry key="S60" value="14.72777124618153" />
-      <entry key="M2" value="26.66572513209123" />
-      <entry key="M5" value="49.99465871485055" />
-      <entry key="M10" value="68.49131132507186" />
-      <entry key="M15" value="78.07501321426399" />
-      <entry key="M30" value="90.72830561235075" />
-      <entry key="H1" value="98.65935546977728" />
-      <entry key="H2" value="103.17507032349594" />
-      <entry key="H4" value="109.43291798160543" />
-      <entry key="D1" value="285.73240663209396" />
-      <entry key="W1" value="451.2565160952742" />
+      <entry key="MS100" value="1.2823622064599633" />
+      <entry key="MS500" value="2.1933744768312793" />
+      <entry key="S2" value="7.758606509095228" />
+      <entry key="S5" value="15.65800546238191" />
+      <entry key="S10" value="22.597152074184535" />
+      <entry key="S30" value="31.906560903610735" />
+      <entry key="S60" value="40.82144922177313" />
+      <entry key="M2" value="58.9438750948538" />
+      <entry key="M5" value="107.52273722347346" />
+      <entry key="M10" value="165.1201659677589" />
+      <entry key="M15" value="202.35803911722633" />
+      <entry key="M30" value="259.56877026496073" />
+      <entry key="H1" value="300.2317356442284" />
+      <entry key="H2" value="324.8815740943809" />
+      <entry key="H4" value="342.12625016292327" />
+      <entry key="D1" value="526.8418601780644" />
+      <entry key="W1" value="695.456493861728" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -97,30 +97,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.StreamStore/docker-compose.yaml: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_projects/wiki_stream" />
       <recent name="$PROJECT_DIR$/test_projects" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.producer">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="my_projects" />
       <method v="2">
@@ -132,6 +138,31 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kafka_projects/StreamStore" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kafka_projects/StreamStore/producer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="StreamStore/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -141,11 +172,14 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.producer" />
         <item itemvalue="Docker.StreamStore/docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -182,6 +216,8 @@
     <MESSAGE value="main: add output flag to wiki_stream_dag.py&#10;&#10;Pass --output argument so wiki_stream.py writes results into the mounted  &#10;repo folder instead of the container's working directory." />
     <MESSAGE value="main: add credit_cards project&#10;&#10;Airflow DAG that scrapes Cal, Max and Isracard transactions daily and  &#10;publishes them to a Google Sheet with a monthly summary and status tab.&#10;&#10;- credit_cards_dag.py: DAG with three scrape tasks and a publish task&#10;  (uses TriggerRule.ALL_DONE so a failed company doesn't block the others)&#10;- scraper/scrape.js: Node script using israeli-bank-scrapers with&#10;  Chromium profile persistence to reduce OTP prompts&#10;- pipeline/: transform.py normalizes per-company JSON, store.py keeps&#10;  SQLite history, sheets.py writes the Google Sheet tabs&#10;- Dockerfile: Airflow 3.4.0 image with Node.js, Chromium and gspread&#10;- .gitignore / .airflowignore: exclude data, secrets and node_modules" />
     <MESSAGE value="main: skip publish when no card connections configured&#10;&#10;In credit_cards_dag.py, distinguish between &quot;no connections set up&quot; and  &#10;&quot;all configured companies failed&quot; so the DAG skips gracefully with a  &#10;helpful message instead of hard-failing when connections are missing." />
-    <option name="LAST_COMMIT_MESSAGE" value="main: skip publish when no card connections configured&#10;&#10;In credit_cards_dag.py, distinguish between &quot;no connections set up&quot; and  &#10;&quot;all configured companies failed&quot; so the DAG skips gracefully with a  &#10;helpful message instead of hard-failing when connections are missing." />
+    <MESSAGE value="main: add StreamStore Kafka docker-compose&#10;&#10;kafka_projects/StreamStore/docker-compose.yaml: single-broker Kafka  &#10;service using Confluent 7.9.11 in KRaft mode for local development." />
+    <MESSAGE value="main: fix producer.py typos and import errors&#10;&#10;Fix class name `Producder` to `Producer`, correct `delviery` to  &#10;`Delivery`, and use single quotes inside f-string to avoid syntax error." />
+    <option name="LAST_COMMIT_MESSAGE" value="main: fix producer.py typos and import errors&#10;&#10;Fix class name `Producder` to `Producer`, correct `delviery` to  &#10;`Delivery`, and use single quotes inside f-string to avoid syntax error." />
   </component>
 </project>
