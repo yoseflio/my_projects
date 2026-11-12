@@ -13,12 +13,13 @@ def delivery_report(err, msg):
         print(f"Delivery failed: {err}")
     else:
         print(f"Delivered {msg.value().decode('utf-8')}")
+        print(f"offset {msg.offset()}")
 
 order = {
     "order_id": str(uuid.uuid4()),
-    "user": "nana",
-    "item": "mushroom pizza",
-    "quantity": 2
+    "user": "adi",
+    "item": "shripms",
+    "quantity": 8
 }
 
 value = json.dumps(order).encode("utf-8")
@@ -29,4 +30,6 @@ producer.produce(
     callback=delivery_report
 )
 
-producer.flush()
+remaining = producer.flush(10)
+if remaining:
+    print(f"{remaining} message(s) were not delivered")
