@@ -3,7 +3,7 @@ import json
 import uuid
 
 producer_config = {
-    "bootstrap.servers": "localhost:9092"
+    "bootstrap.servers": "127.0.0.1:9092"
 }
 
 producer = Producer(producer_config)
